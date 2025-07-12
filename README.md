@@ -1,16 +1,52 @@
-# inspire_me
+## 🧘‍♀️ InspireMe — Daily Quotes App
 
-A new Flutter project.
+**InspireMe** is a beautiful, inspirational quotes app built with Flutter.
+It helps users stay motivated with uplifting quotes every day. 
+The app is designed with elegant animations, mood-based themes (light/dark), and smooth UX.
 
-## Getting Started
+### ✨ Features
 
-This project is a starting point for a Flutter application.
+* 🌞 Daily motivational quotes
+* 🌓 Light and Dark Mode toggle
+* 🎨 Clean UI with beautiful color combinations
+* 💾 Save favorite quotes locally
+* 🧠 State management using **Provider**
+* 💫 Smooth animations throughout the app
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- ▶️ How to Run the App
+
+1. **Clone the repository**
+
+  
+   git clone https://github.com/tanveerkhan87/InspireMe.git
+   cd InspireMe
+ 
+
+2. **Get Flutter packages**
+
+
+   flutter pub get
+   
+
+3. **Run the app**
+
+   
+   flutter run
+  
+
+4. (Optional) **For release build**
+
+   flutter build apk
+  
+ 🧰 Tech Stack
+
+* Flutter (Dart)
+* Provider (State management)
+* SharedPreferences (Persistent storage)
+* Material Design 3
+
+
+
+
