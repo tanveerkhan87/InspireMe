@@ -2,7 +2,7 @@
 
 **InspireMe** is a beautiful, inspirational quotes app built with Flutter.
 It helps users stay motivated with uplifting quotes every day. 
-The app is designed with elegant animations, mood-based themes (light/dark), and smooth UX.
+The app is designed with elegant animations, mood-based themes (light/dark), and smooth UI.
 
 ### ✨ Features
 
