@@ -1,16 +1,19 @@
 import 'package:flutter/material.dart';
+import 'package:inspire_me/splash_screen/splash_screen.dart';
 import 'package:provider/provider.dart';
+import 'firebase_options.dart';
 import 'providers/app_provider.dart';
-import 'screens/home_screen.dart';
+import 'package:firebase_core/firebase_core.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  final appProvider = AppProvider();
-  await appProvider.init();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
 
   runApp(
     ChangeNotifierProvider(
-      create: (_) => appProvider,
+      create: (_) => AppProvider(), // Don't call init() here
       child: const MyApp(),
     ),
   );
@@ -30,14 +33,12 @@ class MyApp extends StatelessWidget {
           theme: ThemeData(
             primarySwatch: Colors.deepPurple,
             brightness: Brightness.light,
-            scaffoldBackgroundColor: Colors.grey[100],
           ),
           darkTheme: ThemeData(
             brightness: Brightness.dark,
             primarySwatch: Colors.deepPurple,
-            scaffoldBackgroundColor: Colors.grey[900],
           ),
-          home: const HomeScreen(),
+          home: const SplashScreen(),
         );
       },
     );
