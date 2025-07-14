@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "476007589290",
+    "project_id": "inspireme887",
+    "storage_bucket": "inspireme887.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476007589290:android:771c15d1d0fb06a028f7d3",
+        "android_client_info": {
+          "package_name": "com.example.inspire_me"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBnmIiy5Clz9XdrIXBQ7X8BTXpXvwhCfo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
